@@ -2,7 +2,7 @@
 
 This tool, named as Generalized Ground Motion Prediction Model (GGMPM), uses a hybrid Recurrent Neural Network (RNN) framework to estimate a 29x1 correlated vector (denoted as IM) of RotD50 Spectral Acceleration (Sa) at 26 periods and geometric means of Arias Intensity (Ia), Significant Duration (D5-95) and Cumulative Absolute Velocity (CAV) using a set of seismic source and site parameters as inputs. The source and site inputs to the RNN framework include a vector of 12 values including F, M, Rrup, Rx, RJB, DHyp, ZTOR, Vs30,. The discrepancy between the IM vector predicted using the RNN framework and the computed from recorded ground motions is further minimized by using the Covariance Matrix Adaptation Evolution Strategy (CMA-ES). The residuals of the RNN framework are used to construct the inter-event and the intra-event covariance matrices to account for the inter-event and intra-event variabilities of the ground motions. Hence, given the source and site parameters, this tool returns a median prediction of the IM and estimated inter-event and intra-event covariance matrices. The executable is developed by Jawad Fayaz (https://jfayaz.github.io/layouts/codeandsoft.html/) and research team at University of California- Irvine (UCI). The program is named as "Generalized Ground Motion Prediction Model (GGMPM)". For further details please read the article mentioned in the "Reference".
 
-Download the application from following Dropbox link
+Download the application from the following Dropbox link
 
     https://www.dropbox.com/scl/fo/sr9ev6y2ggeg69fctxiiv/AIuJIWrRGeJX7HT1Bns9uS4?rlkey=xzxxziqvd52q4ozvhlkcahnfc&dl=0
 
